@@ -1071,6 +1071,7 @@ img {
   position: absolute;
   -webkit-transition: all .2s;
   transition: all .2s;
+  cursor: pointer;
 }
 
 .contact-privacy-input {
@@ -1112,6 +1113,10 @@ img {
   .contact-footer-submit {
     margin-top: 24px;
   }
+}
+
+.-submit.-active:hover {
+  cursor: pointer;
 }
 
 .contact-message {

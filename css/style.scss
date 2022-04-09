@@ -944,8 +944,8 @@ img {
     top: 0;
     left: 0;
     position: absolute;
-
     transition: all .2s;
+    cursor: pointer;
 }
 
 .contact-privacy-input {
@@ -983,6 +983,13 @@ img {
 
     @include mq(sm) {
         margin-top: 24px;
+    }
+}
+.-submit {
+    &.-active {
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
